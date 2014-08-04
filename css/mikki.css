@@ -1,0 +1,108 @@
+
+
+/*************************************
+ *
+ *           Body
+ *
+ *************************************/
+html {
+    font-family: 'goudy_bookletter_1911regular' sans-serif;
+    src: url('goudy_bookletter_1911-webfont.eot');
+    src: url('goudy_bookletter_1911-webfont.eot?#iefix') format('embedded-opentype'),
+         url('goudy_bookletter_1911-webfont.woff') format('woff'),
+         url('goudy_bookletter_1911-webfont.ttf') format('truetype'),
+         url('goudy_bookletter_1911-webfont.svg#goudy_bookletter_1911regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    text-align: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: #c2e7f7;
+    width: 75%;
+    margin: 0 auto;
+}
+.container p{
+    padding: 5% 10%;
+    line-height: 1.5em;
+}
+
+/*************************************
+ *
+ *          Header
+ *
+ *************************************/
+
+
+.header h1{
+    font-size: 4em;
+    margin-bottom: 0;
+    color: #0d395b;
+}
+.header h3{
+    font-size: 1.75em;
+    color: #666;
+}
+.logo{
+    float: left;
+    margin: 0 0 0 10%;
+}
+ 
+
+
+/*************************************
+ *
+ *           Footer
+ *
+ *************************************/
+
+#sml {
+    font-size: 10px;
+    color: #aaa;
+}
+
+/*************************************
+ *
+ *          Navigation
+ *
+ *************************************/
+.navbar{
+    list-style: none;
+    padding-left: 0px;
+}
+.navbar a{
+    color: #fff;
+}
+.nav-li{
+    font-size: .8em;
+    letter-spacing: .1em;
+    text-align: center;
+    display: inline-block;
+    margin: 2px 2em;
+    background: #1E93BC;
+    border-radius: 50%;
+}
+/* trying to get the bubbles to bounce! */
+@-webkit-keyframes bubble-bounce {
+    100% { top: 20%; }  
+}
+.nav-circle-1{
+    padding: 27px 15px;
+    margin-top: .8em;
+    -webkit-animation: bubble-bounce 1s ease-in-out infinite;
+}
+.nav-circle-2{
+    padding: 25px 15px;
+}
+.nav-circle-3{
+    padding: 25px 15px;
+    margin-top: -.1em;
+}
+.nav-circle-4{
+    padding: 25px 17px;
+    margin-top: .3em
+}
