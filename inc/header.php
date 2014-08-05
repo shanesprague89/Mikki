@@ -11,7 +11,7 @@
             <div class="header">
                 <img class="logo" src="img/mikkilogo.png" alt="Mikki Manco">
                 <h1 class="#">Mikki Manco</h1>
-                <h3>Marketing &amp; Advertising</h3>
+                <h4 class="smallcaps">B.S. Advertising &amp; Marketing</h4>
                 <nav>
                     <ul class="navbar">
                         <a href="#"><li class="nav-li nav-circle-1">Portfolio</li></a>

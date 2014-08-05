@@ -56,6 +56,9 @@ body {
     float: left;
     margin: 10px 0 0 10%;
 }
+.smallcaps{
+    font-family: 'cinzelregular';
+}
  
 
 
@@ -68,6 +71,9 @@ body {
 .sml {
     font-size: .7em;
     color: #555;
+    
+    padding-top: 5px;
+    border-top: 1px solid white;
 }
 
 /*************************************
@@ -90,8 +96,9 @@ body {
     margin: 2px 2em;
     background: #1094a4;
     border-radius: 50%;
-    background: -webkit-radial-gradient(circle, #6CB4D3, #133442);
-    /*background-image: url('../img/bubbleglare.png');*/
+    background: -webkit-radial-gradient(-15px -20px, #6CB4D3, #133442);
+    box-shadow: 1px 2px 5px #555;
+    /*background-image: no-repeat url('../img/bubbleglare.png');*/
 }
 /* trying to get the bubbles to bounce! */
 @-webkit-keyframes bubble-bounce {
