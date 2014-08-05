@@ -54,7 +54,7 @@ body {
 }
 .logo{
     float: left;
-    margin: 15px 0 0 10%;
+    margin: 10px 0 0 10%;
 }
  
 
@@ -90,26 +90,28 @@ body {
     margin: 2px 2em;
     background: #1094a4;
     border-radius: 50%;
-    background-image: url('../img/bubbleglare.png');
+    background: -webkit-radial-gradient(circle, #6CB4D3, #133442);
+    /*background-image: url('../img/bubbleglare.png');*/
 }
 /* trying to get the bubbles to bounce! */
 @-webkit-keyframes bubble-bounce {
-    50% { top: 10%; }
-    100% { top: 20%; }  
+    25% {   -webkit-transform: translateY(-3px);    }
+    75% {   -webkit-transform: translateY(3px);   }
 }
+
 .nav-circle-1{
     padding: 34px 15px;
-    -webkit-animation: bubble-bounce 1s ease-in-out infinite;
+    -webkit-animation: bubble-bounce 5.6s ease-in-out infinite;
 }
 .nav-circle-2{
     padding: 29px 15px;
-    /*-webkit-animation: bubble-bounce 1s ease-in-out infinite;*/
+    -webkit-animation: bubble-bounce 4.7s ease-in-out infinite;
 }
 .nav-circle-3{
     padding: 30px 15px;
-    /*-webkit-animation: bubble-bounce 1s ease-in-out infinite;*/
+    -webkit-animation: bubble-bounce 6.1s ease-in-out infinite;
 }
 .nav-circle-4{
     padding: 26px 15px;
-    /*-webkit-animation: bubble-bounce 1s ease-in-out infinite;*/
+    -webkit-animation: bubble-bounce 5.3s ease-in-out infinite;
 }
